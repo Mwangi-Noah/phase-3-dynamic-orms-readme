@@ -30,6 +30,7 @@ class Song
       self.send("#{property}=", value)
     end
   end
+  # what's going on here, What is going on! I do not understand this
 
   def save
     sql = "INSERT INTO #{table_name_for_insert} (#{col_names_for_insert}) VALUES (#{values_for_insert})"
